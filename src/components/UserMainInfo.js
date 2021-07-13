@@ -147,9 +147,9 @@ export class UserMainInfo extends Component {
     if (!UserInfo) {
       return
     }
-    const webAuth = new auth0Min.WebAuth({
-      domain: 'monedar.us.auth0.com',
-      clientID: 'I29O9Ujgn2OuTKZzq8OGf4gi1hna70iM'
+  const webAuth = new auth0Min.WebAuth({
+      domain: 'elektropay.us.auth0.com',
+      clientID: 'hrkd3ostxkzsiwlXSWUHgmCn52o4snrP'
     });
 
     self.setState({
